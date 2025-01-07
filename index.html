@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Seguros con Manu - Tu seguridad, mi compromiso. Encuentra el seguro ideal para ti y tus seres queridos.">
+    <title>Seguros con Manu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Seguros con Manu</h1>
+        <h2>Tu seguridad, mi compromiso</h2>
+    </header>
+
+    <!-- Contenedor principal -->
+    <div class="container">
+        <h3>Solicita tu cotización personalizada</h3>
+        <p>Por favor completa el siguiente formulario y nos pondremos en contacto contigo lo antes posible:</p>
+
+        <!-- Formulario -->
+        <form action="#" method="POST">
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre completo" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="Ingresa tu correo" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Ingresa tu número de teléfono" required>
+
+            <label for="tipo-seguro">Tipo de seguro:</label>
+            <select id="tipo-seguro" name="tipo-seguro" required>
+                <option value="vida">Seguro de Vida</option>
+                <option value="auto">Seguro de Auto</option>
+                <option value="hogar">Seguro de Hogar</option>
+                <option value="salud">Seguro de Salud</option>
+            </select>
+
+            <label for="mensaje">Mensaje adicional:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe cualquier detalle adicional..."></textarea>
+
+            <!-- Botón de envío -->
+            <div class="submit-btn">
+                <button type="submit">Enviar solicitud</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>© 2025 Seguros con Manu. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
